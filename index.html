@@ -93,12 +93,11 @@
     buy.addEventListener("click", () => {
         document.getElementById("main").style.display = "none";
         document.getElementById("form").style.display = "display";
-        document.getElementById("username").value = tg.initDataUnSafe.user.first_name + " " + tg.initDataUnSafe.user.last_name; 
+        document.getElementById("user_name").value = tg.initDataUnSafe.user.first_name + " " + tg.initDataUnSafe.user.last_name; 
     });
     order.addEventListener("click", () => {
         tg.close();
     });
-
 </script>     
 </body>
 </html>
